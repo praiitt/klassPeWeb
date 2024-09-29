@@ -1,0 +1,1436 @@
+{
+	"info": {
+		"_postman_id": "0db27280-d823-46dd-9e1d-20bc8ebd16ca",
+		"name": "Tutor-Finder Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17663807"
+	},
+	"item": [
+		{
+			"name": "tutor_registration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "951baff69ede5a978153256d14514b6612463963bf78740d3661299329c7a8f0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "yu@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "standard",
+							"value": "8",
+							"type": "text"
+						},
+						{
+							"key": "subject",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "monthly_fees",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "university",
+							"value": "KSKVKU",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Bhuj",
+							"type": "text"
+						},
+						{
+							"key": "year_of_experience",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "mobile_no",
+							"value": "656765454",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "454.54.57873",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "5.5775.87.78",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "tutor_registration",
+							"type": "text"
+						},
+						{
+							"key": "tuition_type",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "nearby_tutor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "4b3c82e549e813128f576b3bfa571ef2888fe1ba08e679d578a8607d40cad8fd",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "yu@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "nearby_tutor",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "23.232745",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "69.643549",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_student_lat_long",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "9ce045410f354b5d4ebc7a1fdd373a7d21a16bd9f05149f04d06eecc22c89018",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "lpktechnosoft01@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "update_student_lat_long",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "23.2327452",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "69.6435491",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_hours_availability",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "ae5b8a6ea11a226c1411dfffdf9f750a436301efa78390385b502a5170477bcb",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "get_hours_availability",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "yu@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_tutor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "0b1d31daa6bd5b0cdccbbe7665b00af09bfab8463a5cd7120ee8c043cb542a55",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "get_tutor",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "yu@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home_rate_tutor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "739465d41a5fd106ac389202f48c19fdc98be8b0aea79a2840835d69d06504f7",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "home_rate_tutor",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "yu@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_particular_tutor_details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "c0fa0ff10e5a934229952b4404b4d15d23a6e552059769ff9725748cb468b76c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "get_particular_tutor_details",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "bindiyarathod027@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "tutor_email",
+							"value": "bykuvemu@lyft.live",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send_request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "a2db9eb5515422ed56eec4bb47967b3f6e0ee1fa4a4ae85ebca67ca14344f2f8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "send_request",
+							"type": "text"
+						},
+						{
+							"key": "tutor_email",
+							"value": "preetihirani2909@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "cuteruzi@cyclelove.cc",
+							"type": "text"
+						},
+						{
+							"key": "subject",
+							"value": "1,5,7",
+							"type": "text"
+						},
+						{
+							"key": "fees",
+							"value": "100,100,100",
+							"type": "text"
+						},
+						{
+							"key": "m_hours",
+							"value": "1,2",
+							"type": "text"
+						},
+						{
+							"key": "a_hours",
+							"value": "5,6,7",
+							"type": "text"
+						},
+						{
+							"key": "tuition_type",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_payment_details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "d9c833e20cacfbe49c3e60ec08a3e739e734b70f9dbfec81e796f3fcb65eaedb",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "get_payment_details",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "dufuwe@lyricspad.net",
+							"type": "text"
+						},
+						{
+							"key": "tutor_email",
+							"value": "lpksoftware21@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "set_payment_details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "4473b88654d97eeb63937303877b72e6514bbfc259a796cd2f0a3aa7b526103c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "set_payment_details",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "dufuwe@lyricspad.net",
+							"type": "text"
+						},
+						{
+							"key": "tutor_email",
+							"value": "cuteruzi@cyclelove.cc",
+							"type": "text"
+						},
+						{
+							"key": "transaction_id",
+							"value": "pm_1M6qpUFiz6Q1Cax5Y5cynf9j",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "my_student",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "c3edd958154be86f9eabfa1ecfc35dd490ce7fc2109cc90f0823fe03fdbf55a7",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "my_student",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "lpktechnosoft01@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "my_tutor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "91cb55aebef8fee7f6c99a8e37af6a25b45520cb2db10e1afc4cf08a30f7529c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "my_tutor",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "dufuwe@lyricspad.net",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "5e8b389a2f868216b467760edaa55928c248289bc55b796ab7d42ac046faf49c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "get_request",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "funoqu@lyricspad.net",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_fcm_token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "3bdff14df39e8a4ee8a5a1dba4ee9ab9983658b841c50885f0f868c4489f0c62",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "update_fcm_token",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "lpksoftware21@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "tutor",
+							"type": "text"
+						},
+						{
+							"key": "fcm_token",
+							"value": "5487872378435ertfd",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "my_request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "81cef370e164ef7a02fec6bcd23b3b446bcdf1c8d22d11ff77eedf254932082a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "my_request",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "funoqu@lyricspad.net",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send_payment_request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "cc9d74d6df5ff413eb510ada064d56061f12894f59a9c4dbbe7c70515f3ecc3c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "send_payment_request",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "jazisy@decabg.eu",
+							"type": "text"
+						},
+						{
+							"key": "student_email",
+							"value": "zijobiti@ema-sofia.eu",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "87ad95d2dffd3df2789ca7dcddb1f567d47e3da48d6fcc07ae90c24ec55f2357",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "login",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "nusitubo@decabg.eu",
+							"type": "text"
+						},
+						{
+							"key": "user_type",
+							"value": "normal",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "tutor",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "fcm_token",
+							"value": "EDpI3QULmpU0OBbvJsm:APA91bGF6WBg6M6_tu8GLE0vYfCLWw86b5tL3z5LLiju_h_ukrQ5xNeCGHrSWCzWuyPHTkPjntzN3UxmGzMtXGhOd_Ayy_STb",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "username",
+							"value": "nayan",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home_subject_tutor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "c8c010e68f67abcab112962ea35bfb46db7d600efcf19acdc9be1fa5db71b265",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "home_subject_tutor",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "bindiyarathod027@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "subject",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "notification_list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "11d9777471eec6fbf3a21e0927910a9f9264c7a307ba51e4b90178d8def53a18",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "notification_list",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "bindiyarathod027@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "student",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subject",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "a03a8617b4489393fd77b54e05bdc2744836b9f059600fa9c3af96360a3c4d69",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "subject",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "funoqu@lyricspad.net",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "standard",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "154a6c27385f93c4386c4f7baeddfc414607c6af2f6f16ebeded4371517a6a2d",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "standard",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "funoqu@lyricspad.net",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "set_tutor_profile_image",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "9a1c6f30fa0a38ca88fb0aa7ae6add86ad8b75e3e86dbc1a3e921f0a12f9e035",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "set_tutor_profile_image",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "funoqu@lyricspad.net",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/LPK Technosoft/Pictures/error.PNG"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "student_registration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "e121b4ff653c279bd8b9f8aba99e0e1fcb44d70eb142b5fae6f73ea31d2b62b9",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "student_registration",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "priya",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "priya@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "standard",
+							"value": "7",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "bhuj",
+							"type": "text"
+						},
+						{
+							"key": "mobile_no",
+							"value": "23658954",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "set_student_profile_image",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "9f9931dccb022cf027ca1e57f1bfe8e925659ad5631fa690ec76d13cff71155d",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "set_student_profile_image",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "priya@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/LPK Technosoft/Pictures/Capture.PNG"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_rating",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "1b8bd86f727d79ac125e5a574ff77f6c9fda4f9bd2555a9f7e94c4affa614272",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "add_rating",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "priya@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "tutor_email",
+							"value": "funoqu@lyricspad.net",
+							"type": "text"
+						},
+						{
+							"key": "rate",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request_status",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "95171994e72361e4edb062ceeaf24621490982b27986873528deab852746ebb1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "request_status",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "funoqu@lyricspad.net",
+							"type": "text"
+						},
+						{
+							"key": "student_email",
+							"value": "priya@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "accept",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_tutor_details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "5872c277a9a651a90732772ec8ee42a6ebd862ff96b6bd1976310952ff42a33e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "get_tutor_details",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "funoqu@lyricspad.net",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_student_details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "71c13299a2992af7857d20b2d7526a6729972a454e2884857a68d7df893e1311",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "get_student_details",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "priya@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://tutorfinder.lpkquiz.co.in/v2/api",
+					"protocol": "https",
+					"host": [
+						"tutorfinder",
+						"lpkquiz",
+						"co",
+						"in"
+					],
+					"path": [
+						"v2",
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

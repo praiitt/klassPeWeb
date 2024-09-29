@@ -1,0 +1,189 @@
+API URL:
+
+	https://tutorfinder.lpkquiz.co.in/api
+
+	id = 260898
+	name = Api Name
+API Methods:
+
+	1. login()
+        2. subject()
+        3. tutor_registration()
+        4. student_registration()
+        5. update_fcm_token()
+        6. set_tutor_profile_image()
+        7. set_student_profile_image()
+        8. notification_list()
+        9. tutor_add_rating()
+        10. send_request()
+        11. get_tutor()
+        12. tutor_get_request()
+        13. request_status()
+        14. get_particular_tutor_details()
+        15. setting()
+        16. home_rate_tutor()
+        17. home_subject_tutor()
+        18. standard()
+        19. get_tutor_details()
+        20. get_student_details()
+        21. forgot_password()
+        22. my_tutor()
+        23. my_student()
+        24. my_request()
+ 		
+What parameters to be Passed?
+
+-> Use POST method to pass the parameters
+
+1) login()
+        
+	name : login
+        username : xyz (optional)
+        email : xyz@gmail.com
+        image : image (optional)
+        firebase_id : id (optional)
+        fcm_token : token (optional)
+        user_type : google/apple/facebook/normal
+        type: student/tutor
+        password : XXXXX
+
+2) subject()
+        
+	name : subject
+        email : xyz@gmail.com
+
+3) tutor_registration()
+        
+	name : tutor_registration
+        username : xyz
+        email : xyz@gmail.com
+        standard : 7
+        subject_id : 1
+        monthly_fees : 2000
+        university : abc (optional)
+        location: xyz (optional)
+        year_of_experience : 5 (optional)
+        mobile_no: 1234567899
+        
+4) student_registration()
+        
+	name : student_registration
+        username : xyz
+        email : xyz@gmail.com
+        standard : 7
+        subject_id : 1
+        location: xyz (optional)
+        mobile_no: 1234567899
+
+5) update_fcm_token()
+    
+        name : update_fcm_token
+        email : xyz@gmail.com
+        fcm_token : xyz123
+
+6) set_tutor_profile_image()
+        
+	name : set_tutor_profile_image
+        email : xyz@gmail.com
+        image :image
+        
+
+7) set_student_profile_image()
+        
+	name : set_student_profile_image
+        email : xyz@gmail.com
+        image :image
+
+8) notification_list()
+        
+	name : notification_list
+        email : xyz@gmail.com
+
+9) add_rating()
+        
+	name : add_rating
+        email : xyz@gmail.com
+        rate : 3
+
+10) send_request()
+        
+	name : send_request
+        email : xyz@gmail.com
+        tutor_email : pqr@gmail.com
+        subject : maths
+
+11) get_tutor()
+        
+	name : get_tutor
+        email : xyz@gmail.com
+
+12) get_request()
+        
+	name : get_request
+        email : xyz@gmail.com
+
+13) request_status()
+        
+	name : request_status
+        email : xyz@gmail.com
+        student_email : pqr@gmail.com
+        status : accept/delete
+
+14) get_particular_tutor_details()
+        
+        name : get_particular_tutor_details
+        email : xyz@gmail.com
+        tutor_email : pqr@gmail.com
+
+15) setting()
+        
+        name : setting
+        email : xyz@gmail.com
+
+16) home_rate_tutor()
+
+        name : home_rate_tutor
+        email : xyz@gmail.com
+
+17) home_subject_tutor()
+
+        name : home_subject_tutor
+        email : xyz@gmail.com
+        subject : 1
+
+18) standard()
+        
+	name : standard
+        email : xyz@gmail.com
+
+19) get_tutor_details()
+        
+        name : get_tutor_details
+        email : xyz@gmail.com
+
+20) get_student_details()
+        
+        name : get_student_details
+        email : xyz@gmail.com
+
+21) forgot_password()
+
+        name : forgot_password
+	email : xyz@gmail.com
+	type : tutor/student
+	password : XXXXX
+
+22) my_tutor()
+        
+        name : my_tutor
+        email : abc@gmail.com
+
+23) my_student()
+    
+        name : my_student
+        email : xyz@gmail.com
+
+24) my_request()
+    
+        name : my_request
+        email : xyz@gmail.com
